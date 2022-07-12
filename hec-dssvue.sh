@@ -28,8 +28,7 @@ then
 	fi
 fi
 if [ -z "$DISPLAY" ]; then
-        printf "\nThe DISPLAY variable is not set, and no script was passed to HEC-DSSVue. There is nothing to do.\n\n"
-        exit
+        printf "\nWARNING: The DISPLAY variable is not set. DssVue may not start\n\n"
 fi
 
 #
